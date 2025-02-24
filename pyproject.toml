@@ -1,0 +1,15 @@
+[project]
+name = "uv-box"
+version = "0.1.0"
+description = "Trying out uv"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "duckdb>=1.2.0",
+    "fastapi>=0.115.8",
+    "openai>=1.64.0",
+    "pytest>=8.3.4",
+    "python-dotenv>=1.0.1",
+    "requests>=2.32.3",
+    "ruff>=0.9.7",
+]
