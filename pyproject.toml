@@ -7,6 +7,7 @@ requires-python = ">=3.12"
 dependencies = [
     "duckdb>=1.2.0",
     "fastapi>=0.115.8",
+    "hypothesis>=6.127.2",
     "openai>=1.64.0",
     "pytest>=8.3.4",
     "python-dotenv>=1.0.1",
