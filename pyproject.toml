@@ -6,17 +6,23 @@ readme = "README.md"
 requires-python = ">=3.12"
 dependencies = [
     "dataset>=1.6.2",
+    "datasets>=4.2.0",
     "dotenv>=0.9.9",
     "duckdb>=1.2.0",
     "fastai>=2.8.4",
     "fastapi>=0.115.8",
+    "huggingface-hub[cli,fastai]>=0.35.3",
     "hypothesis>=6.127.2",
+    "ipywidgets>=8.1.7",
     "jupyterlab>=4.3.5",
+    "jupyterlab-lsp>=5.2.0",
     "kaggle>=1.7.4.5",
     "openai>=1.64.0",
     "openai-whisper>=20240930",
     "pytest>=8.3.4",
     "python-dotenv>=1.0.1",
+    "python-lsp-server[all]>=1.13.1",
     "requests>=2.32.3",
     "ruff>=0.9.7",
+    "transformers>=4.57.1",
 ]
